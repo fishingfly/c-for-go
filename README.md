@@ -1,7 +1,7 @@
-# c-for-go [![Go Report Card](https://goreportcard.com/badge/github.com/xlab/c-for-go)](https://goreportcard.com/report/github.com/xlab/c-for-go)
+# c-for-go [![Go Report Card](https://goreportcard.com/badge/github.com/fishingfly/c-for-go)](https://goreportcard.com/report/github.com/fishingfly/c-for-go)
 _Automatic C-Go Bindings Generator for Go Programming Language_
 
-This project allows to reuse existing C/C++ libraries in your Go applications, by automatically creating [c-go bindings](https://golang.org/cmd/cgo/) for a given set of C headers and the manifest file. We believe in component-based software engineering and think that reusing C/C++ code in Go applications could bring a huge boost to developer's productivity and system's performance. Read more about the motivation: [top reasons to use bindings](https://github.com/xlab/c-for-go/wiki/Top-5-reasons-to-use-bindings).
+This project allows to reuse existing C/C++ libraries in your Go applications, by automatically creating [c-go bindings](https://golang.org/cmd/cgo/) for a given set of C headers and the manifest file. We believe in component-based software engineering and think that reusing C/C++ code in Go applications could bring a huge boost to developer's productivity and system's performance. Read more about the motivation: [top reasons to use bindings](https://github.com/fishingfly/c-for-go/wiki/Top-5-reasons-to-use-bindings).
 
 ### Process overview
 
@@ -13,15 +13,15 @@ The only component required to produce a Go package that will wrap the source C/
 
 The resulting bindings are as low-level as C code, i.e. it would require knowledge of memory management to carefully use the resulting code, however no more C code is needed to make things done. Eventually some functions can be replaced manually with pure-Go analogs. Also usually a high-level wrapper is created by hand, to introduce Object Oriented Design into API, manage inner state and memory, thus making things safe and lifting the mental overhead.
 
-Full documentation is available at https://github.com/xlab/c-for-go/wiki
+Full documentation is available at https://github.com/fishingfly/c-for-go/wiki
 
 ### Installation
 
 ```bash
-$ go get github.com/xlab/c-for-go
+$ go get github.com/fishingfly/c-for-go
 ```
 
-A simple [Makefile template](https://github.com/xlab/c-for-go/wiki/Makefile-template).
+A simple [Makefile template](https://github.com/fishingfly/c-for-go/wiki/Makefile-template).
 
 ### In action
 
